@@ -7,9 +7,10 @@
 # allow python files
 !*.py
 
+
 # allow specific files
 !requirements.txt
-
+!README.md
 
 # allow VSCode codespace
 !*.code-workspace
