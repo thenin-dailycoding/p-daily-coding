@@ -29,7 +29,10 @@ def bruteforce(values: Sequence, target: object) -> bool:
 
 def checksum_subbable(values: Sequence, target: object) -> bool:
     """
-    Using a set as a cache
+    Using a set as a cache for items previousely rejected.
+    If the differences between taget anmd next sequence item
+    exists in the set, there is a pair of values which add up to target.
+
     Time complexity: O(n)
     Memory compexity: O(n)
 
@@ -46,7 +49,7 @@ def checksum_subbable(values: Sequence, target: object) -> bool:
     if len(values) < 2:
         raise ValueError(f"Invalid parameter length: {values}")
 
-    # set contains the list of sunstitution result candidates
+    # set contains the list of substitution result candidates
     remains = set()
     for value in values:
         if (target - value) in remains:
@@ -58,7 +61,7 @@ def checksum_subbable(values: Sequence, target: object) -> bool:
 
 def checksum_not_subbable(values: Sequence, target: object) -> bool:
     """
-    Implementation without substraction.
+    Implementation without substraction usin a sliding window.
     Assumes incoming sequence is sorted ASC
 
     Args:
