@@ -1,13 +1,14 @@
 {
 	"folders": [
 		{
-			"name": "root",
-			"path": "."
+			"name": "Daily Coding - Utils",
+			"path": "utils"
 		},
 		{
-			"name": "Daily Coding - Day 1 - TwoSum - [easy]",
+			"name": "Daily Coding - Day 0001 - TwoSum - [easy]",
 			"path": "day0001_TwoSum"
-		}
+		},
+
 	],
 	"settings": {}
 }
