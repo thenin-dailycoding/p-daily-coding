@@ -1,4 +1,4 @@
-## Day 1 - SheckSum
+## Day 1 - TwoSum
 
 ### Difficulty: Easy
 ### Source: Google.
