@@ -1,1 +1,2 @@
-pytest
+-e git+ssh://git@github.com/thenin-dailycoding/p-daily-coding.git@c51a35ec486483400ef028116f61a1c72d33155a#egg=dc_utils&subdirectory=utils
+pytest==8.3.2
