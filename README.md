@@ -2,4 +2,4 @@
 
 Daily coding puzzles, Python implementations
 
-[#### Day 0001 - CheckSum - Google - Easy](day0001_checksum/README.md)
+[#### Day 0001 - TwoSum - Google - Easy](day0001_TwoSum/README.md)

@@ -5,9 +5,9 @@
 			"path": "."
 		},
 		{
-			"name": "Day 0001 - CheckSum - Google - [easy]",
-			"path": "day0001_checksum"
-		},
+			"name": "Daily Coding - Day 1 - TwoSum - [easy]",
+			"path": "day0001_TwoSum"
+		}
 	],
 	"settings": {}
 }
